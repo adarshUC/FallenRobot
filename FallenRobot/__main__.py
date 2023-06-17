@@ -76,6 +76,7 @@ PM_START_TEXT = """
 
 *๏ ᴛʜɪs ɪs* {} !
 ➣ ɪ'ᴍ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ꜰᴏʀ.
+✧⋆──────────────⋆✧
 ➣ Gʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ 
 ➣ Sᴘᴀᴍᴍᴇʀ Pʀᴏᴛᴇᴄᴛɪᴏɴ
 ──────────────────
@@ -205,7 +206,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAIFimSNLXoDtP9KSbdpnGf-AXqq_mZ_AAJLCwACrchhVPutCF1QPpBsLwQ"
+                "CAACAgUAAxkBAAIGlGSNP59KDzMYR0C5wq9prReH8FMWAALNCAACHPpwVFlbpRFQv2uhLwQ"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
