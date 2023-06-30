@@ -98,7 +98,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", url=f"tg://user?id=1153171536"),
+        InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", url=f"t.me/aadarsh_legend"),
     ],
 ]
 
