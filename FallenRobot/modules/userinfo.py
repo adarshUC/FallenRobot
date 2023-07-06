@@ -301,10 +301,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/FallenAssociation/7"
+                                "sᴜᴘᴘᴏʀᴛ", url="https://t.me/xtromsupport"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪꜱᴀꜱᴛᴇʀ", url="https://t.me/FallenAssociation/8"
+                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="tg://user?id={OWNER_ID}"
                             ),
                         ],
                     ]
