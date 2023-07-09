@@ -304,7 +304,7 @@ def info(update: Update, context: CallbackContext):
                                 "sᴜᴘᴘᴏʀᴛ", url="https://t.me/xtromsupport"
                             ),
                             InlineKeyboardButton(
-                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="tg://user?id={OWNER_ID}"
+                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="tg://user?id=1153171536"
                             ),
                         ],
                     ]
