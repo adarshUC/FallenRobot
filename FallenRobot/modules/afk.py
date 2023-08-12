@@ -65,7 +65,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
                 "{} is back online!",
                 "{} is finally here!",
                 "Welcome back! {}",
-                "aa gya {}",
+                "{} is back to Virtual World!",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
@@ -146,7 +146,7 @@ When marked as AFK, any mentions will be replied to with a message to say you're
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk, run_async=True)
 AFK_REGEX_HANDLER = DisableAbleMessageHandler(
-    Filters.regex(r"^(?i)brb(.*)$"), afk, friendly="afk", run_async=True
+    Filters.regex(r"^(?i)brb(.*)$","^(?i)bye(.*)$","^(?i)byy(.*)$","^(?i)signing off(.*)$"), afk, friendly="afk", run_async=True
 )
 NO_AFK_HANDLER = MessageHandler(
     Filters.all & Filters.chat_type.groups, no_longer_afk, run_async=True
